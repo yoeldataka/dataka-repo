@@ -1,0 +1,40 @@
+{
+  "service": {
+    "id": "3vtk18m"
+  },
+  "components": {
+    "users": {
+      "state": {
+        "detectedFrameworkVersion": "3.38.0"
+      }
+    },
+    "items": {
+      "state": {
+        "detectedFrameworkVersion": "3.38.0"
+      }
+    },
+    "dummyMS": {
+      "state": {
+        "detectedFrameworkVersion": "3.38.0"
+      },
+      "outputs": {
+        "GetUsersLambdaFunctionQualifiedArn": "arn:aws:lambda:eu-west-3:700046130725:function:dummyMS-dev-getUsers:1",
+        "GetUserLambdaFunctionQualifiedArn": "arn:aws:lambda:eu-west-3:700046130725:function:dummyMS-dev-getUser:2",
+        "ServiceEndpoint": "https://bhn8a2uku4.execute-api.eu-west-3.amazonaws.com/dev",
+        "ServerlessDeploymentBucketName": "dummyms-dev-serverlessdeploymentbucket-ds9ytp3hrhs6"
+      }
+    },
+    "anotherDummyMS": {
+      "state": {
+        "detectedFrameworkVersion": "3.38.0"
+      },
+      "outputs": {
+        "CreateItemLambdaFunctionQualifiedArn": "arn:aws:lambda:eu-west-3:700046130725:function:anotherDummyMS-dev-createItem:3",
+        "GetItemLambdaFunctionQualifiedArn": "arn:aws:lambda:eu-west-3:700046130725:function:anotherDummyMS-dev-getItem:2",
+        "GetItemsLambdaFunctionQualifiedArn": "arn:aws:lambda:eu-west-3:700046130725:function:anotherDummyMS-dev-getItems:2",
+        "ServiceEndpoint": "https://2kso6q9lph.execute-api.eu-west-3.amazonaws.com/dev",
+        "ServerlessDeploymentBucketName": "anotherdummyms-dev-serverlessdeploymentbucket-7gpo3lgd96z4"
+      }
+    }
+  }
+}

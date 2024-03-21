@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/dataka-repo/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/dataka-repo/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/dataka-repo",
+  "projects": {
+    "dataka-repo": {
+      "type": "application",
+      "root": "apps/dataka-repo",
+      "entryFile": "main",
+      "sourceRoot": "apps/dataka-repo/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/dataka-repo/tsconfig.json"
+      }
+    },
+    "dummy-ms": {
+      "type": "application",
+      "root": "apps/dummy-ms",
+      "entryFile": "main",
+      "sourceRoot": "apps/dummy-ms/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/dummy-ms/tsconfig.json"
+      }
+    }
+  }
+}

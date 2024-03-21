@@ -1,0 +1,5 @@
+services:
+  dummyMS:
+    path: apps/dummyMS
+  anotherDummyMS:
+    path: apps/anotherDummyMS
